@@ -4,6 +4,7 @@
   "description": "socketio tutorial",
   "main": "app.js",
   "scripts": {
+    "dev": "nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ing. Yubisel Vega Alvarez",
@@ -14,7 +15,8 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "typescript": "^3.6.4"
+    "morgan": "^1.9.1",
+    "socket.io": "^2.3.0"
   },
   "devDependencies": {
     "concurrency": "^0.1.4",
